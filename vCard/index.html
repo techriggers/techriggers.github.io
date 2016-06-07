@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <!--meta data -->
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <!--stylesheets -->
+        <link rel="stylesheet" type="text/css" href="css/template_normal.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+        <title>vCard</title>
+    </head>
+
+    <body>
+        <div class="vcard-template style2" id="rootElement">
+            <!--Header-->
+            <div class="vcard-header" style="background: rgb(87, 89, 89) none repeat scroll 0% 0%;">
+                <div class="vcard-header-wrapper">
+                    <div class="vcard-top-info">
+                        <h4 class="top"></h4>
+                        <div style="background: transparent url(img/profile.png) repeat scroll 0% 0%;" class="img"></div>
+                        <h2 class="name">Sughan Nair </h2>
+                        <h6 class="title">Android Developer | Designer</h6>
+
+                        <!--circular add contact button-->
+                        <div class="add-contact-wrapper">
+                            <a href="files/Sughan.vcf" style="background: rgb(38, 187, 180) none repeat scroll 0% 0%;" class="add-contact-btn">
+                                <i class="fa fa-user-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="vcard-functions">
+                        <div class="vcard-functions-wrapper">
+                            <a href="tel:+60176908516">
+                                <i class="fa fa-phone"></i>
+                                <small>Call</small>
+                            </a>
+
+                            <a href="mailto:sughan_90@yahoo.com?subject=From+Online+vCard&amp;body=Hey+Sughan%20Nair" target="_newEmail">
+                                <i class="fa fa-paper-plane"></i>
+                                <small>Email</small>
+                            </a>
+
+                            <a class="last-element" href="https://www.google.com/maps/dir/Current+Location/5002,%20Jalan%20Regent%208,%20Taman%20Regent+Gemencheh+73200+Malaysia" target="_newMaps">
+                                <i class="fa fa-map-marker"></i>
+                                <small>Directions</small>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vcard-body-wrapper">
+                <div class="vcard-body">
+                    <div class="vcard-row" ng-show="view.numbers_mobile">
+                        <i class="fa fa-phone"></i>
+                        <h4><a href="tel:+60176908516">+60176908516</a></h4>
+                        <small>Mobile</small>
+                    </div>
+
+                    <div class="vcard-separator"></div>
+
+                    <div class="vcard-row">
+                        <i class="fa fa-paper-plane"></i>
+                        <h4><a href="mailto:sughan_90@yahoo.com?subject=From+Online+vCard&amp;body=Hey+Sughan%20Nair">sughan_90@yahoo.com</a></h4>
+                        <small>Email</small>
+                    </div>
+                    
+                    <div class="vcard-separator"></div>
+    
+                    <div class="vcard-row">
+                        <i class="fa fa-map-marker"></i>
+                        <h4><a href="https://www.google.com/maps/dir/Current+Location/5002,%20Jalan%20Regent%208,%20Taman%20Regent+Gemencheh+73200+Malaysia" target="_newMaps">5002, Jalan Regent 8, Taman Regent<span>, </span>73200 Gemencheh</a></h4>
+                        <small>Malaysia</small>
+                    </div>
+
+                    <div class="vcard-separator"></div>
+
+                    <div class="vcard-row">
+                        <i class="fa fa-globe"></i>
+                        <h4><a href="http://lnkdin.me/p/sughannair" target="_newLink">http://lnkdin.me/p/sughannair</a></h4>
+                        <small>Website</small>
+                    </div>
+
+                    <div class="vcard-separator"></div>
+                    <!-- download vcard button -->
+                    <a href="files/Sughan.vcf" style="background: rgb(38, 187, 180) none repeat scroll 0% 0%;" class="btn blue-dark big i">
+                        <i class="fa fa-user-plus"></i><span>Download vCard</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
