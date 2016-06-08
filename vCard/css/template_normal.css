@@ -82,10 +82,6 @@ label {
     background-color: #3aafe4;
     text-decoration: none;
     outline: 0 !important; }
-  .btn.small {
-    height: 36px;
-    padding-top: 10px;
-    font-size: 14px; }
   .btn.big {
     height: 56px;
     padding-top: 19px;
@@ -93,15 +89,6 @@ label {
     .btn.big.fs14 {
       font-size: 14px;
       padding-top: 20px; }
-  .btn.fw400 {
-    font-weight: 400; }
-  .btn.wide {
-    padding-left: 135px;
-    padding-right: 135px; }
-    @media (max-width: 767px) {
-      .btn.wide {
-        padding-left: 50px;
-        padding-right: 50px; } }
   .btn.i span {
     display: inline-block;
     vertical-align: middle; }
@@ -109,54 +96,6 @@ label {
     display: inline-block;
     vertical-align: middle;
     padding-right: 10px; }
-  .btn.i-right span {
-    display: inline-block;
-    vertical-align: middle; }
-  .btn.i-right i {
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 10px;
-    margin-top: 0px; }
-  .btn.lc {
-    text-transform: none !important; }
-  .btn.round {
-    width: 40px;
-    text-align: center;
-    padding: 11px 0 0 0; }
-    .btn.round.small {
-      padding: 10px 0 0 0;
-      width: 36px;
-      height: 36px; }
-  .btn.block {
-    display: block;
-    width: 100%; }
-  .btn.green {
-    background-color: #70c250;
-    color: #ffffff !important; }
-    .btn.green:hover, .btn.green:focus, .btn.green:active {
-      background-color: #62b840;
-      color: #ffffff !important; }
-  .btn.red {
-    background-color: #f65f6e;
-    color: #ffffff !important; }
-    .btn.red:hover, .btn.red:focus, .btn.red:active {
-      background-color: #f54758;
-      color: #ffffff !important; }
-  .btn.gray {
-    background-color: #f7f7f7;
-    color: #82848f !important;
-    border: 1px solid #eaeaea; }
-    .btn.gray:hover, .btn.gray:focus, .btn.gray:active {
-      background-color: #f2f2f2;
-      color: #323032 !important;
-      border: 1px solid #e5e5e5; }
-  .btn.white {
-    background-color: #ffffff;
-    color: #82848f !important;
-    border: 1px solid #eaeaea; }
-    .btn.white:hover, .btn.white:focus, .btn.white:active {
-      color: #323032 !important;
-      border: 1px solid #d1d1d1; }
   .btn.blue-dark {
     background-color: #2283f6;
     color: #ffffff !important;
@@ -165,22 +104,7 @@ label {
       background-color: #0a75f5;
       color: #ffffff !important;
       box-shadow: 5px 8.7px 20px rgba(86, 86, 86, 0.7) !important; }
-  .btn.white-transparent {
-    background-color: rgba(255, 255, 255, 0.1) !important;
-    color: #ffffff !important;
-    border: 2px solid rgba(255, 255, 255, 0.3) !important; }
-    .btn.white-transparent:hover, .btn.white-transparent:focus, .btn.white-transparent:active {
-      background-color: rgba(255, 255, 255, 0.15) !important;
-      color: #ffffff !important;
-      border: 2px solid rgba(255, 255, 255, 0.7) !important; }
-  .btn.transparent {
-    background-color: transparent;
-    color: #50b8e7 !important;
-    border: 1px solid transparent; }
-    .btn.transparent:hover, .btn.transparent:focus, .btn.transparent:active {
-      color: #23a6e1 !important; }
-
-
+      
 .vcard-template .vcard-body {
   max-width: 480px;
   margin: 0 auto 0 auto;
