@@ -1,0 +1,478 @@
+.main-colors{
+	main green: #1c797b  ;
+	grey: #6a6b6b;
+}
+/* Designed by Sughan Nair | August 2016 */
+
+/*-------------------
+	Global Styles
+---------------------*/
+body{ width: 100%; font-family: 'Varela Round', sans-serif; }
+
+p{ color: #6a6b6b; }
+
+.btn:focus, .btn:active:focus, .btn.active:focus { outline: 0 none; box-shadow: none; }
+
+.btn > i { padding-right: 5px; padding-left: 5px; }
+
+.container{	top: 0%; margin-top: 0px; }
+
+.text-white{ color: #fff; }
+
+.text-white span{ color: #1c797b; }
+
+
+/*-------------------
+	Header Section
+---------------------*/
+.jumbotron{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100vh;
+	width: 100vw;
+	margin: 0px;
+	background-image: url(../img/me.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #1c797b;
+	background-position: bottom; 
+}
+
+#size-banner{ margin-top: 100px; }
+
+.profile-pic{ display: none; }
+
+.hola{ color: #fff; font-size: 4vw; font-family: 'Fjalla One', sans-serif; }
+
+.who{ color: #FFFFFF; font-size: 4.2vw; font-family: 'Roboto Slab', serif; }
+
+.fields{
+	margin-top: 20px;
+	padding: 10px;
+	font-family: 'Roboto Slab', serif;
+	color: #FFFFFF;
+	border: 1px; 
+	border-style: solid; 
+	border-color: #000000;
+}
+
+.fields span{ color: #000000; }
+
+.btn-primary-outline{
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+	border-radius: 0px;
+	margin: 5px;
+	margin-top: 15px;
+	min-width: 150px;
+}
+
+.btn-primary-outline:visited{ color: #FFFFFF; border-color: #FFFFFF; background-color: #1c797b; }
+
+.btn-primary-outline:hover{ border-color: #FFFFFF; background-color: #FFFFFF; color: #1c797b; }
+
+
+/*-------------------
+	About Section
+---------------------*/
+.aboutme{
+	background-color: #e0ebe8;
+	height: 100vh;
+	background-image: url(../img/avatar.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+.section-title-about{
+	color: #1c797b;
+	padding-top: 0px;
+	display: inline-block;
+	font-family: 'Fjalla One', sans-serif;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.section-title-about::after{ content: " "; border: solid 2px #6a6b6b; display: block; width: 35px; margin-top: 25px; margin-left: 20%; }
+
+.section-title-about{ display: none; }
+
+.aboutme p{ width: 80%; text-align: justify; margin: 0px; padding-bottom: 30px; }
+
+.features-wrapper{ margin: 70px 60px 0px 20px; }
+
+.icon{ 
+	height: 140px; 
+	width: 140px; 
+	line-height: 130px; 
+	max-width: 100%; 
+	background: #3dc9b3; 
+	border-radius: 50%; 
+	-o-border-radius: 50%; 
+	-moz-border-radius: 50%; 
+	-webkit-border-radius: 50%;
+	border: 5px solid #1c797b ;
+	display: block; 
+	color: #fff; 
+	font-size: 55px; 
+	text-align: center; 
+	vertical-align: middle; 
+	position: relative; 
+	margin: 0 auto 50px; 
+}
+
+.icon::after{ content: " "; border: solid 2px #6a6b6b; display: block; width: 35px; margin: 25px auto; }
+
+.shadow{
+	text-shadow: rgb(55, 181, 161) 1px 1px, rgb(55, 181, 161) 2px 2px, rgb(55, 181, 161) 3px 3px, rgb(55, 181, 161) 4px 4px, 
+	rgb(55, 181, 161) 5px 5px, rgb(55, 181, 161) 6px 6px, rgb(55, 181, 161) 7px 7px, rgb(55, 181, 161) 8px 8px, 
+	rgb(55, 181, 161) 9px 9px, rgb(55, 181, 161) 10px 10px, rgb(55, 181, 161) 11px 11px, rgb(55, 181, 161) 12px 12px, 
+	rgb(55, 182, 162) 13px 13px, rgb(55, 183, 163) 14px 14px, rgb(56, 184, 164) 15px 15px, rgb(56, 185, 165) 16px 16px, 
+	rgb(56, 186, 166) 17px 17px, rgb(57, 187, 167) 18px 18px, rgb(57, 188, 168) 19px 19px, rgb(59, 195, 174) 20px 20px, 
+	rgb(59, 196, 175) 21px 21px, rgb(60, 197, 176) 22px 22px, rgb(60, 198, 177) 23px 23px, rgb(60, 199, 178) 24px 24px, 
+	rgb(61, 201, 179) 25px 25px; 
+}
+
+.skills{ margin: 40px 70px 0px 60px; padding-bottom: 20px; }
+
+.skill-pool{ background-color: #c1e1d8; padding: 10px; border-radius: 10px; }
+
+.skills h3{ font-family: 'Fjalla One', sans-serif; color: #1c797b; margin-left: 10px; }
+
+.btn-skill{ color: #FFFFFF; background-color: #1c797b; border-color: #1c797b; border-radius: 12px; margin: 5px; margin-top: 5px; }
+
+.btn-skill:hover{ color: #FFFFFF; background-color: #1c797b; }
+
+
+
+/*-------------------
+	Quotes Section
+---------------------*/
+.parallax {
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("../img/parallax.jpg");
+	min-height: 500px;
+}
+
+.caption { position: absolute; left: 0; top: 45%; width: 100%; text-align: center; color: #000; }
+
+.caption span.border { background-color: #403f3f; color: #fff; padding: 18px; font-size: 25px; letter-spacing: 5px; }
+
+
+
+/*-------------------
+	Works Section
+---------------------*/
+.works{
+	background-color: #fff;
+	height: auto;
+	background-image: url(../img/bg_pattern_small.png);
+	background-size: contain;
+	background-repeat: repeat;
+	padding-bottom: 100px;
+}
+
+.section-title-work{
+	color: #1c797b;
+	padding-top: 0px;
+	font-size: 4vw;
+	display: inline-block;
+	font-family: 'Fjalla One', sans-serif;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 50px;
+
+}
+
+.section-title-work::after{ content: " "; border: solid 2px #6a6b6b; display: block; width: 35px; margin: 25px auto; }
+
+.filters{ padding-bottom: 10px; border-bottom: 3px solid #1c797b; margin-bottom: 10px; }
+
+.btn-filter{
+	color: #6a6b6b;
+	border-color: #6a6b6b;
+	border-radius: 0px;
+	margin: 5px;
+	margin-top: 15px;
+	min-width: 100px;
+	background-color: transparent;
+}
+
+.btn-filter.is-checked {
+	color: #fff;
+	border-color: #1c797b;
+	font-weight: bold;
+	text-decoration: none;
+	outline: none;
+	background-color: #1c797b;
+}
+.btn-filter.is-checked:hover { color: #fff; text-decoration: none; outline: none; }
+
+.btn-filter:hover { color: #6a6b6b; text-decoration: none; outline: none; }
+
+.grid { width: 100%; }
+
+.folio-item {
+  position: relative;
+  float: left;
+  width: 265px;
+  height: 265px;
+  margin: 5px;
+  overflow: hidden;
+  background: #888;
+  color: #262524;
+}
+
+.folio-item img { max-width: 100%; -moz-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; }
+
+.folio-item:hover img { -moz-transform: scale(1.1); -webkit-transform: scale(1.1); transform: scale(1.1); }
+
+.folio-item:hover .folio-info{
+	margin-top: 0px;
+	opacity:0.9;
+	filter: alpha(opacity = 90);
+	transition:opacity 0.25s;
+	-moz-transition:opacity 0.25s;
+	-webkit-transition:opacity 0.25s;
+}
+
+.folio-info {
+    background-color:#1c797b;
+    bottom:0;
+    height: 100%;
+    color:#fff;
+    opacity:0;
+    filter: alpha(opacity = 0);
+    position:absolute;
+    width:100%;
+    z-index:1000;
+}
+
+.folio-info h4 { position: absolute; left: 0; top: 40%; width: 100%; text-align: center; color: #fff; }
+
+.folio-info p { position: absolute; left: 0; top: 50%; width: 100%; text-align: center; color: #fff; padding-top: 2px; }
+
+
+
+
+/*-------------------
+	Contact Section
+---------------------*/
+.contact{ background: #34495e; margin: 0 auto; padding-bottom: 70px; }
+
+.section-title-contact{
+	color: #1c797b;
+	padding-top: 0px;
+	font-size: 4vw;
+	display: inline-block;
+	font-family: 'Fjalla One', sans-serif;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 50px;
+
+}
+
+.section-title-contact::after{ content: " ";  border: solid 2px #fff; display: block; width: 35px; margin: 25px auto; }
+
+.btn-contact{
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+	border-radius: 0px;
+	margin: 5px;
+	margin-top: 15px;
+	min-width: 300px;
+	font-size: 20px;
+}
+
+.btn-contact:visited{ color: #FFFFFF; border-color: #FFFFFF; background-color: #1c797b; }
+
+.btn-contact:hover{ border-color: #1c797b; background-color: #1c797b; color: #fff; }
+
+
+
+
+/*-------------------
+	Footer Section
+---------------------*/
+.footer{ background-color: #2c3e50; height: auto; padding: 10px; }
+
+.social{ margin-top: 10px; }
+
+.social-network{ list-style: none; display: inline; margin-left:0 !important; padding: 0; }
+
+.social-network li { display: inline; margin: 0 5px; }
+
+
+.social-network li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+	outline: none;
+}
+.social-network li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+	color: #6a6b6b;
+}
+
+.social-network li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.social-network i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.icoPlay:hover {
+	background-color:#27ae60;
+}
+.icoFacebook:hover i, .icoLinkedin:hover i, .icoPlay:hover i { color:#fff; }
+
+
+
+
+/*----------------------
+	Portfolio Modal
+------------------------*/
+.modal-content {
+    padding: 20px;
+    min-height: 100%;
+    min-width: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.close-modal .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.close-modal:hover { opacity: .3; }
+
+.hr-primary { margin: 25px auto 30px; padding: 0; max-width: 250px; border: 0; border-top: solid 3px #1c797b; text-align: center; }
+
+.project-title { font-family: 'Fjalla One', sans-serif; color: #1c797b; }
+
+.modal-body img{ margin-left: 0px; padding-left: 0px; box-shadow: 5px 5px 20px #888888; }
+
+.proj-desc p span { font-weight: bold; color: #1c797b; }
+
+.btn-default{ border-color: #1c797b; color: #1c797b; margin: 10px; }
+
+
+
+/*----------------------
+	Waypoint Animation
+------------------------*/
+.wp, .wp1, .wp2, .wp3 { visibility: hidden; }
+.fadeInUp, .fadeInDown { visibility: visible; }
+.delay-025s { animation-delay: 0.25s; -webkit-animation-delay: 0.25s; }
+.delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
+.delay-075s { animation-delay: 0.75s; -webkit-animation-delay: 0.75s; }
+.delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
+
+
+
+
+
+
+/*----------------------
+	Max 585px Width
+------------------------*/
+
+@media only screen and (max-width: 585px) {
+    
+    /*--------------------
+		Header Section
+	---------------------*/
+    .jumbotron{ background-image: none; }
+
+    #size-banner{ margin-top: 10px; }
+
+    .profile-pic{ display: block; }
+
+    .hola { font-size: 12vw; }
+
+    .who{ font-size: 8.2vw; }
+	
+	.fields{ font-size: 5vw; padding-top: 10px; padding-bottom: 10px; }
+
+	.btn-primary-outline{ margin-top: 5px; margin-bottom: 5px; min-width: 200px; }
+
+
+	/*--------------------
+		About Section
+	---------------------*/
+	.aboutme{ 
+		height: auto; 
+		background-image: url("../img/avatar_mobile.png"); 
+		background-position: top right;
+		background-attachment: fixed; 
+		background-size: auto 100vh; }
+
+	.section-title-about{ display: block; font-size: 12vw; margin-top: 30px; text-align: left;}
+
+	.features-wrapper{ text-align: left }
+}
