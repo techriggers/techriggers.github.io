@@ -93,8 +93,6 @@ p{ color: #6a6b6b; }
 	margin-bottom: 0px;
 }
 
-.section-title-about::after{ content: " "; border: solid 2px #6a6b6b; display: block; width: 35px; margin-top: 25px; margin-left: 20%; }
-
 .section-title-about{ display: none; }
 
 .aboutme p{ width: 80%; text-align: justify; margin: 0px; padding-bottom: 30px; }
@@ -160,7 +158,7 @@ p{ color: #6a6b6b; }
 
 .caption { position: absolute; left: 0; top: 45%; width: 100%; text-align: center; color: #000; }
 
-.caption span.border { background-color: #403f3f; color: #fff; padding: 18px; font-size: 25px; letter-spacing: 5px; }
+.caption span.border { background-color: #403f3f; color: #fff; padding: 18px; font-size: 25px; letter-spacing: 5px; line-height: 50px; }
 
 
 
@@ -465,14 +463,47 @@ p{ color: #6a6b6b; }
 	/*--------------------
 		About Section
 	---------------------*/
-	.aboutme{ 
-		height: auto; 
-		background-image: url("../img/avatar_mobile.png"); 
-		background-position: top right;
-		background-attachment: fixed; 
-		background-size: auto 100vh; }
+	.aboutme{ height: auto; background-image: none; }
 
-	.section-title-about{ display: block; font-size: 12vw; margin-top: 30px; text-align: left;}
+	.section-title-about{ display: block; font-size: 12vw; margin-top: 30px;}
 
-	.features-wrapper{ text-align: left }
+	.section-title-about::after{ content: " "; border: solid 2px #6a6b6b; display: block; width: 35px; margin: 25px auto; }
+
+	.features-wrapper{ margin: 20px 0px 0px 0px;}
+
+	.aboutme p{ width: 100%; text-align: justify; margin: 0px; padding-bottom: 30px; }
+
+	.skills{ margin: 20px 10px 0px 10px; padding-bottom: 40px; }
+
+	.skill-pool{ background-color: #c1e1d8; padding: 10px; border-radius: 10px; }
+
+	.skills h3{ font-family: 'Fjalla One', sans-serif; color: #1c797b; margin-left: 0px; }
+
+
+	/*--------------------
+		Quotes Section
+	---------------------*/
+	.parallax {
+		background-size: 100% auto;
+		background-image: url(../img/parallax_mobile.jpg);
+		background-size: cover;
+	}
+
+	.caption { top: 35%;}
+
+	.caption span.border { padding: 5px;}
+
+	/*--------------------
+		Works Section
+	---------------------*/
+	.works{ background-image: url(../img/bg_pattern_mobile.png); }
+	
+	.section-title-work{ font-size: 12vw; margin-top: 30px;}
+	
+	.grid { margin-left: 10px; }
+
+	/*--------------------
+		Contact Section
+	---------------------*/
+	.section-title-contact{ font-size: 12vw; margin-top: 30px;}
 }
